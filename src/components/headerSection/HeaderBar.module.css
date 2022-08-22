@@ -1,0 +1,5 @@
+.headerBarCss {
+    aria-label: 'basic tabs example';
+    textColor: 'secondary';
+    indicatorColor: 'secondary';
+}
