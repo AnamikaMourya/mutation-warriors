@@ -10,7 +10,6 @@ interface TabProp {
 
 
 const clickTab = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-  event.preventDefault();
 };
 
 const LinkTab = (props: TabProp) => {

@@ -19,18 +19,17 @@ export const headerBarContent = {
     id: "eduResurcesId",
     value: 3
   },
-  aboutUs: {
-    label: "About Us",
-    id: "aboutUsId",
-    href: 'aboutUs',
-    value: 4 
-  },
-
   getInvolved: {
     label: "Get Involved",
     id: "getInvolvedId",
     href: 'getInvolved',
-    value: 5
+    value: 4
+  },
+  aboutUs: {
+    label: "About Us",
+    id: "aboutUsId",
+    href: 'aboutUs',
+    value: 5 
   },
   contactUs: {
     label: "Contact Us",

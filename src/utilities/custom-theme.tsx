@@ -1,4 +1,5 @@
 import { createTheme } from "@mui/material/styles";
+import type {} from '@mui/lab/themeAugmentation';
 
 // A custom theme for this app
 const theme = createTheme({

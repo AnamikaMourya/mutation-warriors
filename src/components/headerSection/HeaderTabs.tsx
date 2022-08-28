@@ -32,8 +32,8 @@ const HeaderTabs = () => {
         <LinkIconTab {...headerBarContent.name} />
         <LinkTab {...headerBarContent.blogs} />
         <LinkTab {...headerBarContent.educationalResources} />
-        <LinkTab {...headerBarContent.aboutUs} />
         <LinkTab {...headerBarContent.getInvolved} />
+        <LinkTab {...headerBarContent.aboutUs} />
         <LinkTab {...headerBarContent.contactUs} />
         {/* <LinkPopoverTab handleClick = {handleClick} {...headerBarContent.educationalResources}/> */}
       </Tabs>
