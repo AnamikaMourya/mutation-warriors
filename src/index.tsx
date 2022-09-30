@@ -4,6 +4,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { StyledEngineProvider } from '@mui/material/styles';
 import { ScopedCssBaseline } from '@mui/material';
+import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -12,7 +13,9 @@ root.render(
   <React.StrictMode>
     <ScopedCssBaseline>
       <StyledEngineProvider injectFirst>
-        <App />
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
       </StyledEngineProvider >
     </ScopedCssBaseline>
   </React.StrictMode>
